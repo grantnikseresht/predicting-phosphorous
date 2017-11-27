@@ -1,0 +1,21 @@
+SS Linear Regression Output
+
+
+Call:
+lm(formula = formula, data = train)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-44.563  -1.055  -0.154   0.755  18.612 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 3.2212018  0.0240219  134.09   <2e-16 ***
+SS          0.0087410  0.0001023   85.46   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.736 on 10906 degrees of freedom
+Multiple R-squared:  0.4011,	Adjusted R-squared:  0.401 
+F-statistic:  7303 on 1 and 10906 DF,  p-value: < 2.2e-16
+

@@ -1,0 +1,21 @@
+NH3N Linear Regression Output
+
+
+Call:
+lm(formula = formula, data = train)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.3374 -1.1353 -0.5165  0.4804 28.8978 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 1.589401   0.060158   26.42   <2e-16 ***
+NH3N        0.199379   0.003654   54.57   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.988 on 10906 degrees of freedom
+Multiple R-squared:  0.2145,	Adjusted R-squared:  0.2144 
+F-statistic:  2978 on 1 and 10906 DF,  p-value: < 2.2e-16
+

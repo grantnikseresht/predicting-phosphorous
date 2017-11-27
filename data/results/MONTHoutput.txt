@@ -1,0 +1,31 @@
+MONTH Linear Regression Output
+
+
+Call:
+lm(formula = formula, data = train)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.7929 -1.2916 -0.2561  0.8068 28.4051 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  4.75182    0.07226  65.756  < 2e-16 ***
+MONTH2      -0.33612    0.10468  -3.211 0.001327 ** 
+MONTH3      -0.84189    0.10234  -8.227  < 2e-16 ***
+MONTH4      -0.69569    0.10302  -6.753 1.52e-11 ***
+MONTH5      -0.35690    0.10220  -3.492 0.000481 ***
+MONTH6      -0.16028    0.10299  -1.556 0.119680    
+MONTH7       0.17081    0.10211   1.673 0.094407 .  
+MONTH8       0.40299    0.10211   3.946 7.98e-05 ***
+MONTH9       0.30789    0.10311   2.986 0.002832 ** 
+MONTH10      0.74105    0.10217   7.253 4.35e-13 ***
+MONTH11      0.21040    0.10302   2.042 0.041138 *  
+MONTH12     -0.05858    0.10267  -0.571 0.568310    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.2 on 10896 degrees of freedom
+Multiple R-squared:  0.03855,	Adjusted R-squared:  0.03758 
+F-statistic: 39.71 on 11 and 10896 DF,  p-value: < 2.2e-16
+

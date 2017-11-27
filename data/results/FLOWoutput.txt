@@ -1,0 +1,21 @@
+FLOW Linear Regression Output
+
+
+Call:
+lm(formula = formula, data = train)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.5293 -1.2284 -0.3389  0.7240 27.7618 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  5.0455567  0.0270080  186.82   <2e-16 ***
+FLOW        -0.0038250  0.0001888  -20.26   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.202 on 10906 degrees of freedom
+Multiple R-squared:  0.03628,	Adjusted R-squared:  0.03619 
+F-statistic: 410.5 on 1 and 10906 DF,  p-value: < 2.2e-16
+

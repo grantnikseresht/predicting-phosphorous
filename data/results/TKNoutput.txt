@@ -1,0 +1,21 @@
+TKN Linear Regression Output
+
+
+Call:
+lm(formula = formula, data = train)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-11.1188  -0.8106  -0.3672   0.3901  17.6085 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -0.11447    0.04062  -2.818  0.00484 ** 
+TKN          0.18015    0.00143 125.987  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.431 on 10906 degrees of freedom
+Multiple R-squared:  0.5927,	Adjusted R-squared:  0.5927 
+F-statistic: 1.587e+04 on 1 and 10906 DF,  p-value: < 2.2e-16
+

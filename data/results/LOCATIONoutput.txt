@@ -1,0 +1,25 @@
+LOCATION Linear Regression Output
+
+
+Call:
+lm(formula = formula, data = train)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.8360 -1.1023 -0.1023  0.7553 28.0021 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  5.62598    0.04851 115.982   <2e-16 ***
+LOCATION2    0.11937    0.06864   1.739    0.082 .  
+LOCATION3   -0.98130    0.06859 -14.307   <2e-16 ***
+LOCATION4   -1.42714    0.06863 -20.795   <2e-16 ***
+LOCATION5   -0.82810    0.06873 -12.048   <2e-16 ***
+LOCATION6   -2.42372    0.06869 -35.283   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.071 on 10902 degrees of freedom
+Multiple R-squared:  0.1476,	Adjusted R-squared:  0.1472 
+F-statistic: 377.6 on 5 and 10902 DF,  p-value: < 2.2e-16
+

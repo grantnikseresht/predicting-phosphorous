@@ -1,0 +1,2 @@
+I had to aggrate NO2N and NO3N togethe so the years have the same number of attributes. I added the to columns together, If there was an "<0.15" I just ignored it and only added the column that had a number.
+Egan 2013 is NA
